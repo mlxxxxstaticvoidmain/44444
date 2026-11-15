@@ -1,0 +1,33 @@
+name: flutter_application_1
+description: "Атлас упражнений — справочник тренировок на базе API Ninjas (Dio, interceptors, get_it)."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dio: ^5.11.1
+  pretty_dio_logger: ^1.4.0
+  get_it: ^9.3.0
+
+  shared_preferences: ^2.5.6
+
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: PTSansNarrow
+      fonts:
+        - asset: assets/fonts/PT_Sans_Narrow_Bold.ttf
+          weight: 700
